@@ -1,0 +1,99 @@
+.layer-div {
+    padding: 25px 50px;
+}
+
+.layer-div span input {
+    line-height: 50px;
+    height: 40px;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.layer-div button {
+    margin-left: 50px;
+    width: 320px;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    background: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.layer-div textarea {
+    width: 100%;
+    height: 73px;
+    border: 1px solid #707070;
+    color: #000000;
+    padding: 5px 0 0 5px;
+    font: inherit;
+    resize: none;
+
+}
+
+#article {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: "Helvetica Neue", Arial, Tahoma, sans-serif;
+    padding: 1px 2.4px;
+}
+
+#article textarea {
+    margin:0px 1px;
+    width: 584px;
+    height: 380px;
+    background-color: #707070;
+    color: #bfbfbf;
+    font: inherit;
+    resize: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+#article .article-real {
+    margin:5px 0px;
+    height: 380px;
+    background-color: #707070;
+    color: #bfbfbf;
+    font: inherit;
+    border-radius: 5px;
+    padding: 20px;
+    overflow:auto;
+}
+
+#article span {
+    position: absolute;
+}
+
+#article-real img {
+    width: 100%;
+}
+
+.article-real img {
+    width: 100%;
+}
+
+#download-html-btn {
+    
+}
+
+#write-article-btn {
+    margin-left:200px;
+}
+
+#write-question-btn {
+    margin-left:100px;
+}
+
+#article button {
+    background: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.button-div {
+    margin-left: 188px;
+}
