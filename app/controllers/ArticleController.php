@@ -174,7 +174,7 @@ class ArticleController extends ControllerBase
      */
     public function writeApiAction() {
         $uid = $this->session->get('uid');
-        $article = $this->request->getJsonRawBody();
+        $article = str_replace('pre', 'div', $this->request->getJsonRawBody());
         $module = $this->request->getHeader('module');
         $type = $this->request->getHeader('type');
         $now_date = date('Y-m-d H:i:s', $_SERVER['REQUEST_TIME']);
